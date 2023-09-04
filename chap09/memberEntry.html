@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+    <title>フォーム関連タグ</title>
+</head>
+
+<body>
+    <section>
+        <h1>会員登録</h1>
+        <p>以下の情報を入力し、確認ボタンをクリックしてください。</p>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>基本情報</legend>
+                <label for="memberName">
+                    お名前:&nbsp;
+                    <input type="text" name="memberName" id="memberName" required>
+                </label><br />
+                <label for="memberEmail">
+                    メールアドレス:&nbsp;
+                    <input type="email" name="memberEmail" id="memberEmail" required>
+                </label><br />
+                <label for="memberPassword">
+                    パスワード:&nbsp;
+                    <input type="password" name="memberPassword" id="memberPassword" required>
+                </label><br />
+            </fieldset>
+            <fieldset>
+                <legend>性別</legend>
+                <label for="memberSexMale">
+                    <input type="radio" name="memberSex" id="memberSexMale" value="1" checked>
+                    男
+                </label>
+                <label for="memberSexFemale">
+                    <input type="radio" name="memberSex" id="memberSexFemale" value="0">
+                    女
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>生年月日</legend>
+                <label for="memberBirthYear">
+                    <select name="memberBirthYear" id="memberBirthYear" required>
+                        <option value="" selected>選択してください</option>
+                        <option value="1989">1989</option>
+                        <option value="1990">1990</option>
+                        <option value="1991">1991</option>
+                    </select>
+                    年
+                </label>
+                <label for="memberBirthMonth">
+                    <select name="memberBirthMonth" id="memberBirthMonth" required>
+                        <option value="" selected>選択してください</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    月
+                </label>
+                <label for="memberBirthDay">
+                    <select name="memberBirthDay" id="memberBirthDay" required>
+                        <option value="" selected>選択してください</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    日
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>希望メールマガジン</legend>
+                <label for="magazineForDesigner">
+                    <input type="checkbox" name="magazine" id="magazineForDesigner" value="1">
+                    デザイナ向け
+                </label>
+                <label for="magazineForProgrammer">
+                    <input type="checkbox" name="magazine" id="magazineForProgrammer" value="2">
+                    プログラマ向け
+                </label>
+                <label for="magazineForConsultant">
+                    <input type="checkbox" name="magazine" id="magazineForConsultant" value="3">
+                    コンサルタント向け
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>その他</legend>
+                <label for="note">
+                    その他ご希望の内容:&nbsp;<br />
+                    <textarea name="note" id="note" cols="50" rows="5"></textarea>
+                </label>
+            </fieldset>
+            <button type="submit">確認</button>
+        </form>
+    </section>
+</body>
+
+</html>
