@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+section {
+    border: solid 1px blue;
+    background-color: lightskyblue;
+}
+
+section h1 {
+    border: solid 1px red;
+    background-color: white;
+    width: 80%;
+    height: 100px;
+}
+
+section p {
+    border: solid 1px orange;
+    background-color: white;
+}
+
+#threeP {
+    border: solid 1px brown;
+    background-color: khaki;
+    width: 80%;
+}
+
+.redText {
+    color: red;
+}
