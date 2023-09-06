@@ -10,17 +10,29 @@ section h1 {
     background-color: white;
     width: 80%;
     height: 100px;
+    margin: 0px;
+    margin: 0px auto 10px;
+    text-align: center;
 }
 
 section p {
     border: solid 1px orange;
     background-color: white;
+    margin: 0px;
 }
 
 #threeP {
     border: solid 1px brown;
     background-color: khaki;
     width: 80%;
+    padding: 20px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+#p1, #p2 {
+    margin-bottom: 5px;
 }
 
 .redText {
