@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+section p {
+    border: 1px solid red;
+    width: 250px;
+    height: 100px;
+    overflow: hidden;
+}

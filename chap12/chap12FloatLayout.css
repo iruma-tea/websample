@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+#outerBox {
+    background-color: aqua;
+    width: 440px;
+}
+
+#box1 {
+    width: 200px;
+    margin: 10px;
+    float: left;
+}
+
+#box2 {
+    width: 200px;
+    margin: 10px;
+    float: left;
+}
+
+#box3 {
+    border: 1px solid red;
+    background-color: white;
+    margin: 10;
+    width: 420;
+    clear: left;
+}

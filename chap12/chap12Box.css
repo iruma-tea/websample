@@ -26,3 +26,7 @@ section p {
 .redText {
     color: red;
 }
+
+#threeP p {
+    display: inline;
+}
