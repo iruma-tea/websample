@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+/* navボックスのスタイル設定 */
+header nav {
+    background-color: aliceblue;
+    padding: 15px;
+    margin: 0px;
+}
+
+/* ナビゲーションのulボックスのスタイル設定 */
+header nav ul {
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    grid-gap: 4px;
+}
+
+/* ナビゲーションのliボックスのスタイル設定 */
+header nav li {
+    list-style: none;
+    background-color: turquoise;
+    text-align: center;
+    padding: 10px;
+}
+
+/* liボックス内のリンクスタイル設定 */
+header nav li a {
+    color: white;
+    text-decoration-line: none;
+}
+
+/* main内のsectionボックスのスタイル設定 */
+main section {
+    background-color: gainsboro;
+    padding: 15px;
+}
+
+/* sectionタグ内のh2ボックスのスタイル設定 */
+main section h2 {
+    margin: 0px;
+}
+
+/* クリアフィックス */
+.clearfix::after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
